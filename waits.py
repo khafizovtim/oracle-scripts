@@ -1,6 +1,7 @@
 #!/bin/python
 import re
 
+# Function to convert two 4-bytes pieces of 8-bytes number into base 32 representation
 def tobase32(p1,p2):
  base32='0123456789abcdfghjkmnpqrstuvwxyz'
  sqlhash=(p1<<32)|p2
