@@ -10,3 +10,6 @@ select k2.program,k2.CPU_USED- k1.CPU_USED
 from (select * from ktipro  where n=1) k1, (select * from ktipro  where n=2) k2 where k1.program=k2.program order by 2;
 
 commit;
+
+
+
